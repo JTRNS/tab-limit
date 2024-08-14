@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "module": "ESNext",
+    "target": "ES2022",
+    "strict": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "isolatedModules": true,
+    "checkJs": true,
+    "esModuleInterop": false,
+    "skipLibCheck": true,
+    "types": [
+      "chrome-types"
+    ],
+    "outDir": "dist"
+  },
+  "files": [
+    "src/service-worker.ts",
+    "src/popup/popup.ts",
+    "src/options/options.ts",
+    "src/update-icon.ts",
+    "src/shared.ts"
+  ]
+}

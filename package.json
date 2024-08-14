@@ -1,0 +1,22 @@
+{
+  "name": "tab-limit",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "browser",
+    "tabs",
+    "extension"
+  ],
+  "author": "Jeroen Trines",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "chrome-types": "^0.1.297",
+    "typescript": "^5.5.4"
+  }
+}

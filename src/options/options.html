@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Options | Max Tabs</title>
+  <script type="module" src="options.js"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+    }
+
+    body {
+      min-inline-size: 33ch;
+      max-inline-size: 57ch;
+      min-block-size: 256px;
+      font-size: 100%;
+      font-weight: normal;
+      line-height: 1.5;
+    }
+
+    form {
+      padding: 1rem 0.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    p {
+      display: none;
+      text-align: center;
+      font-size: x-small;
+    }
+
+    .show {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <label>
+      <input type="checkbox" name="limit-per-window" id="limit-per-window">
+      Limit tabs per open browser window
+    </label>
+    <button type="submit">save changes</button>
+    <p>saved settings</p>
+  </form>
+</body>
+
+</html>
